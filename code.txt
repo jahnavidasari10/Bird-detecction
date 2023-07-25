@@ -1,0 +1,33 @@
+CREATE TABLE login (
+    id  INT(10)NOT NULL,
+    username VARCHAR(150),
+    password VARCHAR(255)
+    constraint pk_login primary key(id)
+);
+
+INSERT INTO `login`('id',`username`, `password`) VALUES
+ ('1','jahnavi','123'),
+ ('2','uhana','123');
+
+CREATE TABLE userinfo (
+    id INT(255) NOT NULL ,
+    user VARCHAR(255) NOT NULL,
+    email VARCHAR(255)NOT NULL,
+    mobile INT(255)NOT NULL,
+    comments TEXT
+    constraint pk_User primary key(id)
+);
+
+INSERT INTO `userinfo`(`id`, `user`, `email`, `mobile`, `comments`) VALUES 
+('1','uhana','uhana@gmail.com','123456789','LIKE'),
+('2','jahnavi','jahnavi@gmail.com','123456789','SHARE');
+
+CREATE TABLE  `image` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `image` longblob NOT NULL,
+  `title` varchar(255) NOT NULL,
+  `uploaded` datetime NOT NULL,
+  constraint pk_image PRIMARY KEY (`id`)
+) ;
+
+INSERT INTO `image`(`id`, `image`, `title`, `uploaded`, `species`) VALUES ('1','','[value-3]','[value-4]','[value-5]')

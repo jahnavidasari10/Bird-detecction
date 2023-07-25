@@ -1,0 +1,279 @@
+1.CREATE TABLE [IF NOT EXISTS] table_name(
+   column_definition1,
+   column_definition2,
+   ........,
+   table_constraints
+);
+2.php artisan make:migration add_deleted_at_to_table_name --table=table_name
+$table->softDeletes();
+php artisan migrate
+use Illuminate\Database\Eloquent\SoftDeletes;
+
+class YourModel extends Model
+{
+    use SoftDeletes;
+}
+3.The <marquee> tag is a non-standard HTML tag that was used to create scrolling text or images within a web page from either left to right or vice versa, or top to bottom or vice versa.
+<marquee behavior="scroll" direction="left">
+  <img src="image.jpg" alt="Scrolling Image">
+</marquee>
+4.Title attribute is used for adding a tooltip in HTML.The <title> attribute provides additional information about an element.
+5.To display HTML data in tabular format,we can use HTML <table>tag to create a table in HTML .
+6.Encapsulation.
+7."dlroW olleH"
+8.<p style=”background-color: #a7b8c9”></p>
+9.HTML attributes are used to provide additional information about HTML elements or to modify their behavior and appearance.
+10.Implicit type coercion in JavaScript refers to the automatic or implicit conversion of values from one data type to another data type without the interference of the developer
+11.Dynamically typed launguage
+12.The specifications of CSS are postulated by the World Wide Web Consortium (W3C).The CSS specifications are maintained by the CSS Working Group, which is part of the W3C
+13.
+
+Advantages:
+1.Classes can be created for use on multiple tag types in the document.
+2.Selector and grouping methods can be used to apply styles under complex contexts.
+3.They load immediately with the page itself, instead of requiring other external files to be loaded.
+4.No extra download is required to import the information.
+Disadventages:
+1.It is not possible to control the styles for different archives from one document, using this method.
+2.It is not possible to create classes for use on multiple HTML element types in many documents.
+3.It is impractical to control the styles for different archives from one document, using this method.
+4.For small number of style definitions, it is not viable.
+
+
+14.CSS is generally considered to be case-insensitive, except for certain parts that are not under the control of CSS, such as the values of the HTML attributes "id" and "class".This means that in most cases, CSS selectors, including class and ID selectors, are not case-sensitive.HTML class names are class sensitive
+
+15.<div> is a block-level element, while <span> is an inline element.
+<div> is used for block-level organization and styling of page elements, while <span> is used for inline organization and styling.
+<div> is best used to attach it to a specific area of a website, while <span> is best used for small sections of content on the page.
+<div> is used to divide the web page contents into blocks, while <span> is used for grouping smaller pieces of text together
+
+16.SVG:
+SVG stands for Scalable Vector Graphics and is an XML-based markup language used to describe 2D vector graphics.
+SVG uses vector-based image formats, meaning it uses mathematical metadata to create graphics.
+SVG is resolution-independent, meaning that it can be scaled up or down without losing image quality.
+SVG is best suited for creating complex and interactive graphics, such as charts, diagrams, and maps.
+SVG supports animation and interactive elements, making it an excellent choice for complex and interactive web design.
+SVG is more accessible than Canvas because it can be read by screen readers.
+Canvas:
+Canvas is a raster-based technology that uses arrays of pixels arranged on a grid to create graphics.
+Canvas uses raster-based image formats, meaning it uses pixels to create graphics.
+Canvas is resolution-dependent, meaning that it is not easily scalable without losing image quality.
+Canvas is best suited for creating simple graphics and animations, such as games and simulations.
+Canvas has better performance with smaller surface or larger number of objects.
+Canvas can be modified through script only.
+
+
+17.
+
+1.Use an external stylesheet: This is the most common and recommended approach for integrating stylesheets into a website.With an external stylesheet, you can change the look of an entire website by changing just one file, and each HTML page must include a reference to the external style sheet file inside the <link> element, inside the head section.
+2.Use internal stylesheets: An internal stylesheet is defined within the <style> element, inside the head section of an HTML page. This method is useful when you want to apply styles to a specific page or section of a website
+3.Use inline styles: Inline styles are defined within the HTML element using the style attribute. This method is useful when you want to apply styles to a specific element
+4.Concatenate multiple stylesheets: If you have multiple stylesheets, you can concatenate them into a single file to reduce the number of HTTP requests and improve page load times
+
+18.
+
+CSS selectors are patterns used to select and target specific HTML elements for styling. Here are a few examples of CSS selectors:
+Class Selector: Selects elements with a specific class attribute.
+Example: .my-class { color: red; }
+ID Selector: Selects an element with a specific ID attribute.
+Example: #my-id { font-size: 16px; }
+Element Selector: Selects elements based on their HTML tag name.
+Example: p { text-align: center; }
+Descendant Selector: Selects elements that are descendants of another element.
+Example: div p { font-weight: bold; }
+Child Selector: Selects elements that are direct children of another element.
+Example: <ul > li { list-style-type: square; }
+Attribute Selector: Selects elements based on their attribute values.
+Example: input[type=["text"] { border: 1px solid gray; }
+Pseudo-class Selector: Selects elements based on a specific state or condition.
+Example: a:hover { color: blue; }
+
+
+19.A web developer should know several skills-HTML,CSS,Javascript,Responsive Design,Version Control,Testing and Debugging,Backend Web Programming launguages.
+
+20.
+
+Web Developer:
+Focuses on building websites and web-based applications.
+Works with client-side technologies such as HTML, CSS, and JavaScript.
+Deals with front-end development, including user interface design, layout, and interactivity.
+Often works with frameworks and libraries like React, Angular, or Vue.js.
+May have knowledge of server-side technologies and databases, but the primary focus is on the presentation layer.
+May work as a freelancer or be part of a web development agency.
+Software Developer:
+Develops software applications that run on different platforms, including desktop and mobile.
+Works with various programming languages like C++, Java, Python, or Ruby.
+Deals with both front-end and back-end development, including user interfaces, business logic, and database integration.
+May work on stand-alone applications, system software, or enterprise-level software solutions.
+Requires a deeper understanding of algorithms, data structures, and software architecture.
+Often works as part of a software development team in a larger organization.
+
+21.
+
+Pair programming is a software development technique in which two programmers work together on one computer. One programmer, the driver, writes code while the other, the observer or navigator, reviews each line of code as it is typed in. The two programmers switch roles frequently. Pair programming is a collaborative effort that involves a lot of communication. The idea is to have the driver and navigator communicate, discuss approaches, and solve issues that might be difficult for a single developer to detect.
+
+22.
+
+1.Use an external stylesheet: This is the most common and recommended approach for integrating stylesheets into a website.With an external stylesheet, you can change the look of an entire website by changing just one file, and each HTML page must include a reference to the external style sheet file inside the <link> element, inside the head section.
+2.Use internal stylesheets: An internal stylesheet is defined within the <style> element, inside the head section of an HTML page. This method is useful when you want to apply styles to a specific page or section of a website
+3.Use inline styles: Inline styles are defined within the HTML element using the style attribute. This method is useful when you want to apply styles to a specific element
+4.Concatenate multiple stylesheets: If you have multiple stylesheets, you can concatenate them into a single file to reduce the number of HTTP requests and improve page load times
+
+23.
+
+SOAP and REST are two different approaches to building web services. Here are some of the key differences between SOAP and REST:
+SOAP:
+SOAP stands for Simple Object Access Protocol.
+SOAP is a protocol that uses XML messaging and requires more bandwidth than REST.
+SOAP uses service interfaces to expose its functionality to client applications.
+SOAP is more secure than REST because it has built-in error handling and standardized security protocols.
+SOAP is less flexible than REST because it requires a strict contract between the client and the server.
+REST:
+REST stands for Representational State Transfer.
+REST is an architectural style that uses a uniform interface and HTTP verbs like GET, POST, PUT, and DELETE for CRUD operations.
+REST uses Uniform Service locators to access the components on the hardware device.
+REST is simpler and more flexible than SOAP, making it easier to develop and maintain.
+REST can transfer data in a variety of formats, including XML, plain text, HTML, and JSON.
+
+24.
+
+The main differences between local storage and session storage objects are as follows:
+Local Storage:
+Local storage is a web storage mechanism that allows data to be stored persistently in the browser.
+The data stored in local storage remains available even after the browser is closed and reopened.
+Local storage has a larger storage capacity compared to session storage, typically up to 10 megabytes.
+The data stored in local storage is not tied to a specific session or tab and can be accessed across multiple tabs or windows of the same browser.
+The data stored in local storage remains until it is manually cleared or removed programmatically.
+Session Storage:
+Session storage is a web storage mechanism that allows data to be stored temporarily in the browser.
+The data stored in session storage is available only for the duration of the session, which ends when the user closes the browser or tab.
+Session storage has a smaller storage capacity compared to local storage, typically up to 5 megabytes.
+The data stored in session storage is specific to a particular session or tab and is not accessible by other tabs or windows of the same browser.
+The data stored in session storage is automatically cleared when the session ends, providing a temporary storage solution.
+
+25.The "this" keyword is used a lot in JavaScript because it refers to the current object or context in which the code is being executed. The behavior of "this" in JavaScript can be confusing for beginners because it has different contextual meanings depending on where it is used. The "this" keyword is used to refer to an instance of an object from within a class definition in other object-oriented programming languages such as C++ or Java.
+
+26.
+
+Using a CDN (Content Delivery Network) to load jQuery framework has several advantages, including:
+1.Faster loading: The jQuery file loading gets faster and easy as the CDN stores the same files on multiple servers located in different parts of the world, and the user can access the file from the server nearest to its location, which optimizes latency time and reduces the waiting time for the web page to load.
+2.Reduced bandwidth usage: Using a CDN saves data bandwidth as the user doesn't have to load the jQuery file again, and the pages or jQuery files that have been accessed earlier can be loaded quickly.
+3.Increased reliability and performance: CDNs provide a highly scalable performance and availability of relative service distribution to the user, which increases overall performance and reliability over the network.
+4.Improved website security: CDNs provide improved website security by providing protection from large surges in traffic and reducing the load on the web server, which reduces the risk of a DDoS attack.
+
+27.
+
+penStack is a collection of open-source software modules and tools that provide a framework to create and manage both public and private cloud infrastructure. OpenStack setups vary, but typically start with a handful of central components:
+Compute (Nova): It manages the compute resources like creating, deleting, and handling the scheduling.
+VM images (Glance): It provides discovery, registration, and delivery services for disk and server images.
+Networking (Neutron): It provides networking services to virtual machines and manages IP addresses, ports, and network topologies.
+Storage (Cinder or Swift): Cinder provides persistent block storage to guest virtual machines, while Swift provides object storage.
+Identity management (Keystone): It provides authentication and authorization services for all OpenStack services.
+Resource management (Placement): It provides a unified API for managing resource allocation and tracking.
+
+28.
+OpenStack provides multiple storage locations for storing virtual machine images. Here are some of the storage locations for vimages in OpenStack:
+1.File system: By default, OpenStack stores virtual machine images in the file system, and the directory used is configurable. The default directory is /var/lib/glance/images/
+2.Object Storage: OpenStack Object Storage (Swift) can be used to store virtual machine images. With this configuration, images are stored in an Object Storage service endpoint that is pulled from the service catalog for the project.
+3.Other storage systems: OpenStack allows virtual machine images to be stored in a variety of locations, ranging from simple file systems to object-storage systems like OpenStack Object Storage.
+
+29.
+
+Inductive and deductive learning are two different approaches to teaching and learning. Here are the key differences between inductive and deductive learning:
+Inductive Learning:
+Inductive learning is a process where the learner discovers rules by observing examples.
+Inductive learning starts with specific examples and works towards a general conclusion or rule.
+Inductive learning is a student-centered approach that encourages learners to participate actively in the learning process.
+Inductive learning is effective for small groups of students and can be time-consuming.
+Deductive Learning:
+Deductive learning is a process where a model is built using a series of logical principles and steps.
+Deductive learning starts with general principles and works towards specific examples or instances.
+Deductive learning is a teacher-centered approach that involves the teacher introducing and explaining concepts to students.
+
+30.
+
+The main difference between .py and .pyc files in Python is that .py files contain human-readable Python code, while .pyc files contain compiled bytecode that is not human-readable. Here are some more differences between the two file types:
+.py files:
+.py files contain the source code of a Python program.
+The code in .py files is executed in the same format by the machine on which you run your code.
+.py files are human-readable and can be edited using a text editor.
+.py files are compiled into .pyc files before being executed.
+.pyc files:
+.pyc files contain the compiled bytecode of Python source files.
+The bytecode in .pyc files is not human-readable and cannot be edited directly.
+.pyc files are automatically created when a .py file is imported.
+.pyc files are used to speed up the execution of Python programs by caching the compiled bytecode.
+
+31.
+
+The [::-1] syntax in Python is used for reversing a sequence, such as a string, list, or tuple. It returns a reversed copy of the original sequence. Here's how it works:
+For strings: When applied to a string, [::-1] reverses the order of the characters in the string. For example, if a is a string, a[::-1] will return the reversed version of the string.
+For lists and tuples: Similarly, when applied to a list or tuple, [::-1] reverses the order of the elements in the list or tuple. For example, if a is a list or tuple, a[::-1] will return the reversed version of the list or tuple.
+
+32.
+
+The three stages of model building in machine learning are:
+Model Building: In this stage, a suitable algorithm is chosen for the model and trained according to the requirement. The data is prepared, and the model is built using the chosen algorithm.
+Model Testing: In this stage, the accuracy of the model is checked through the test data. The model is evaluated to determine its performance and to identify any issues or errors.
+Applying the Model: In this stage, the required changes are made after testing, and the final model is used for real-time projects. The model is deployed and used to make predictions or decisions based on new data.
+
+33.
+To fix overfitting, several approaches can be taken:
+Increase training data: Providing more diverse and representative training data can help the model learn the underlying patterns better and reduce overfitting.
+Feature selection: Selecting relevant features and removing irrelevant or noisy features can help the model focus on the most important information and reduce overfitting.
+Regularization: Regularization techniques, such as L1 or L2 regularization, can be applied to penalize complex models and prevent them from overfitting. Regularization adds a penalty term to the model's objective function, discouraging overly complex solutions.
+Cross-validation: Using techniques like k-fold cross-validation helps evaluate the model's performance on multiple subsets of the data, providing a more reliable estimate of its generalization ability.
+Early stopping: Monitoring the model's performance on a validation set during training and stopping the training process when the performance starts to degrade can prevent overfitting.
+Model simplification: Simplifying the model architecture or reducing the number of parameters can help prevent overfitting by reducing the model's capacity to memorize noise.
+
+34.
+
+Cross-Origin Resource Sharing
+
+35.
+
+There are different ways to align list elements in an HTML file, depending on the desired outcome. Here are some methods: Using CSS: One way to align list elements is by using CSS. You can wrap the list inside a container element and apply CSS styles to the container element to align the list. For example, you can use the text-align property to align the list items to the left, right, or center. You can also use the display property to change the layout of the list. For example, you can set the display property to inline-block to make the list items appear side by side. Using HTML attributes: Another way to align list elements is by using HTML attributes. For example, you can use the align attribute to align the list items to the left, right, or center. However, this method is not recommended as it is deprecated in HTML5.
+
+36.
+
+The <marquee> tag is a non-standard HTML tag that was used to create scrolling text or images within a web page from either left to right or vice versa, or top to bottom or vice versa. <marquee behavior="scroll" direction="left">   <img src="image.jpg" alt="Scrolling Image"> </marquee>
+
+37.
+Viewport height (VH) and viewport width (VW) are CSS units that allow web developers to size elements relative to the size of the viewport. The viewport is the visible area of a web page in the browser. VH represents a percentage of the viewport height, while VW represents a percentage of the viewport width.VH and VW can be used to size elements such as fonts, images, and containers, and they can be combined with other CSS units to create more complex layouts. Other viewport units include VMIN and VMAX, which represent the smaller and larger of the viewport height and width, respectively. Overall, viewport units provide a flexible and powerful way to create responsive designs that work well on different devices and screen sizes.
+
+38.
+HSL stands for Hue, Saturation, and Lightness, and it is a color model used in CSS to define colors. HSL colors are specified using the hsl() function in CSS, which takes three parameters: hue, saturation, and lightness. The hue parameter represents the color itself and is measured in degrees on a color wheel, with 0 degrees being red, 120 degrees being green, and 240 degrees being blue. The saturation parameter represents the intensity of the color and is measured as a percentage, with 0% being a shade of gray and 100% being the full color. The lightness parameter represents the brightness of the color and is also measured as a percentage, with 0% being black, 50% being neither light nor dark, and 100% being white. HSL colors provide a more intuitive and flexible way to define colors in CSS, and they can be used to create a wide range of color schemes and effects.
+
+39.
+
+There are several different CSS link states that can be styled to create different effects. Here are some of the most common link states:
+Normal link state (a:link): This is the default state of a link, which is displayed when the link has not been visited or interacted with.
+Visited link state (a:visited): This state is applied to a link after it has been visited by the user.
+Hover link state (a:hover): This state is applied to a link when the user hovers over it with the mouse.
+Active link state (a:active): This state is applied to a link when it is being clicked or activated.
+
+40.
+Angular is a development platform and framework used to build single-page applications (SPAs) using HTML and TypeScript. It is an open-source framework maintained by Google and is the successor to the popular AngularJS. Angular was introduced to address the limitations of AngularJS and provide a more modern and efficient way to build SPAs. It is built using TypeScript and offers several features and advantages over its predecessor, including:
+Clear guidance on how the application should be structured
+Bi-directional data flow
+Real DOM
+Modular services and dependency injection
+Testing support
+Component-based development approach
+
+41.
+
+Decorators in Angular are functions that are used to modify or add metadata to classes, methods, properties, or parameters. Decorators are invoked using the @ symbol followed by the decorator name. Angular provides several built-in decorators that can be used to add functionality to components, directives, services, and other Angular constructs
+
+42.
+
+Components are the main building blocks of Angular applications.Each component consists of an HTML template that declares what renders on the page, a TypeScript class that defines the behavior of the component, and a CSS file that defines the component's styles.Components are associated with a template and are a subset of directives.
+
+43.
+Impure pipes in Angular are pipes that execute whenever Angular detects an impure change in the input value.An impure change is when the change detection cycle detects a change to composite objects, such as adding an element to the existing array.Impure pipes are required because Angular ignores changes to composite objects.
+
+44.Filters in Angular are called Pipes, which are used to transform data before displaying it in the view.Pipes are a way to format and manipulate data in Angular templates.Angular provides several built-in pipes that can be used to format data, such as DatePipe, CurrencyPipe, and UpperCasePipe.Custom pipes can also be created to perform specific transformations on data.
+
+45.
+Services in Angular are TypeScript classes that provide functionality to components and other services in an Angular application. Services are used to share data, logic, and functionality across different components and modules in an Angular application.
+Services are a way to keep the business logic separate from the presentation logic, making the code more modular and easier to maintain.
